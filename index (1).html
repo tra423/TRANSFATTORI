@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Transfattori Transportes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Roboto', sans-serif; background: #f9f9f9; color: #333; }
+    header { background-color: #1e1e2f; padding: 20px; color: white; text-align: center; }
+    header h1 { font-size: 2rem; }
+    .hero { padding: 40px 20px; text-align: center; background: linear-gradient(to right, #1e1e2f, #3c3c70); color: white; }
+    .hero h2 { font-size: 1.8rem; margin-bottom: 10px; }
+    .hero p { font-size: 1.1rem; }
+    .form-section, .map-section { padding: 40px 20px; text-align: center; }
+    form { max-width: 500px; margin: 0 auto; display: flex; flex-direction: column; gap: 15px; }
+    input, textarea, button { padding: 10px; font-size: 1rem; border: 1px solid #ccc; border-radius: 5px; }
+    button { background-color: #1e1e2f; color: white; border: none; cursor: pointer; transition: background 0.3s ease; }
+    button:hover { background-color: #3c3c70; }
+    footer { background: #1e1e2f; color: white; padding: 20px; text-align: center; font-size: 0.9rem; }
+    iframe { width: 100%; height: 300px; border: 0; border-radius: 10px; }
+    .whatsapp-button { display: inline-block; margin-top: 20px; background: #25D366; color: white; padding: 10px 20px; border-radius: 50px; text-decoration: none; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Transfattori Transportes</h1>
+    <p>Agilidade e preço justo no transporte de carga fechada em São Paulo</p>
+  </header>
+
+  <section class="hero">
+    <h2>Solicite sua cotação agora mesmo</h2>
+    <p>Atendimento rápido via WhatsApp e e-mail</p>
+    <a class="whatsapp-button" href="https://wa.me/5519988051667" target="_blank">Fale conosco no WhatsApp</a>
+  </section>
+
+  <section class="form-section">
+    <h3>Formulário de Cotação</h3>
+    <form action="mailto:agfattori463@gmail.com" method="POST" enctype="text/plain">
+      <input type="text" name="nome" placeholder="Seu nome" required />
+      <input type="email" name="email" placeholder="Seu e-mail" required />
+      <input type="text" name="telefone" placeholder="Telefone para contato" required />
+      <textarea name="detalhes" rows="4" placeholder="Descreva o serviço de transporte" required></textarea>
+      <button type="submit">Enviar cotação</button>
+    </form>
+  </section>
+
+  <section class="map-section">
+    <h3>Onde estamos</h3>
+    <p>Rua Tra423, Campinas - SP, CEP 13050-721</p>
+    <iframe src="https://www.google.com/maps?q=Rua+Tra423,+Campinas,+SP,+13050-721&output=embed"></iframe>
+  </section>
+
+  <footer>
+    &copy; 2025 Transfattori Transportes. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
